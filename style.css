@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
+body{
+    
+}
+
+.container{
+    height: 100vh;
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    
+}
+
+nav .logo{
+    width: 100px;
+    height: 90%;
+    position: relative;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+.banner{
+    height: 100vh;
+    background: linear-gradient(to bottom,rgba(0,0,0,.5), rgba(0,0,0,.6)) url("img/Portfolio_1.jpg");
+}
