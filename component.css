@@ -27,7 +27,7 @@
 
 .logo{
     display: flex;
-    position: fixed;
+    position: absolute;
     top: 45px;
     left: 8%;
 
@@ -130,7 +130,6 @@
 @media screen and (max-width: 680px){
 
     .logo a img{
-        position: fixed;
         width: 30px;
         transition: .6s ease;
     }
