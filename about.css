@@ -26,7 +26,7 @@ section .profile-circle{
     position: absolute;
     width: 250px;
     height: 250px;
-    border: 1px solid white;
+    border: 10px solid white;
     border-radius: 50%;
     top: 200px;
     left: 50%;
