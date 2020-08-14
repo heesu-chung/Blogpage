@@ -11,6 +11,7 @@ body{
     overflow: hidden;
     font-family: 'Julius Sans One', sans-serif;
     color: white;
+    opacity:1;
 }
 
 .cursor{
@@ -110,17 +111,36 @@ body{
     left: 8%;
     
 }
-.nav a img{
-    transition: 0.2s ease;
+#nav-img{
+    position: absolute;
     width: 20px;
     height: 20px;
-    cursor: none;
+    pointer-events: all;
 }
-.nav a img:hover{
-    width: 25px;
-    height: 25px;
-    transition: 0.3s ease-in-out;
+#nav-img:hover{
+    
+    pointer-events: all;
+    transition: .3s ease;
 }
+
+form{
+    position: absolute;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    opacity: 0;
+    z-index: -5;
+    transition: .5s ease;
+}
+
+.mobile-menu a{
+    display: none;
+}
+.mobile-menu a img{
+    display: none;
+}
+
 .menu-nav{
     position: absolute;
     display: flex;

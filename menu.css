@@ -1,0 +1,41 @@
+form{
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100vh;
+    opacity: 0;
+    z-index: -5;
+    transition: .5s ease;
+    background-image: url('img/Background_img.png');
+    
+    
+}
+
+form p{
+    margin-top: 150px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+form a{
+    text-decoration: none;
+    text-align: center;
+    
+}
+
+form a h3{
+    margin: 50px 30%;
+    color: gray;
+    transition: 0.5s ease;
+    padding: 5px;
+}
+
+form a h3:hover{
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: 0.5s ease;
+    
+}

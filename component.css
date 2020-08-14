@@ -36,22 +36,22 @@
 }
 
 .nav{
-    position: fixed;
+    position: absolute;
     top: 50%;
     transform: translateY(-70px);
     left: 8%;
     
 }
-.nav a img{
-    transition: 0.2s ease;
+#nav-img{
+    position: absolute;
     width: 20px;
     height: 20px;
+    pointer-events: all;
 }
-.nav a img:hover{
-    width: 25px;
-    height: 25px;
-    transition: 0.3s ease-in-out;
-    cursor: none;
+#nav-img:hover{
+    
+    pointer-events: all;
+    transition: .3s ease;
 }
 /* Menu-Bar */
 .menu-nav{
