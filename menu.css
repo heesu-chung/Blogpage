@@ -8,6 +8,7 @@ form{
     transition: .5s ease;
     background-image: url('img/Background_img.png');
     
+    overflow: hidden;
     
 }
 
