@@ -181,4 +181,11 @@
         font-weight: 200;
         transition: all 0.5s ease;
     }
+
+    .line{
+        position: relative;
+        width: 90%;
+        height: 2px;
+        background-color: white;
+    }
 }
